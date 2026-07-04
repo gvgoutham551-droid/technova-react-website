@@ -1,0 +1,77 @@
+.project-card{
+
+    background:rgba(255,255,255,.05);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 30px rgba(0,212,255,.3);
+
+}
+
+.project-card img{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.project-content{
+
+    padding:25px;
+
+}
+
+.project-content h3{
+
+    margin-bottom:10px;
+
+}
+
+.project-content p{
+
+    color:#94a3b8;
+
+    margin-bottom:20px;
+
+}
+
+.project-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.project-buttons button{
+
+    flex:1;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    background:linear-gradient(135deg,#6C63FF,#00D4FF);
+
+    color:white;
+
+}

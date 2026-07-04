@@ -1,0 +1,242 @@
+.contact{
+
+    padding:100px 8%;
+
+    background:#08111f;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:60px;
+
+    color:white;
+
+}
+
+.contact-left h2{
+
+    font-size:48px;
+
+    margin-bottom:20px;
+
+}
+
+.contact-left p{
+
+    color:#94a3b8;
+
+    line-height:1.8;
+
+    margin-bottom:40px;
+
+}
+
+.contact-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.contact-info div{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+    font-size:18px;
+
+}
+
+.contact-info svg{
+
+    color:#00d4ff;
+
+    font-size:24px;
+
+}
+
+.contact-right form{
+
+    background:rgba(255,255,255,.05);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.contact-right input,
+.contact-right textarea{
+
+    background:#111c2e;
+
+    border:none;
+
+    outline:none;
+
+    padding:18px;
+
+    border-radius:12px;
+
+    color:white;
+
+    font-size:16px;
+
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus{
+
+    border:1px solid #00d4ff;
+
+}
+
+.contact-right button{
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    color:white;
+
+    font-size:17px;
+
+    background:linear-gradient(135deg,#6C63FF,#00D4FF);
+
+    transition:.3s;
+
+}
+
+.contact-right button:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+/* ================= */
+/* Mobile Responsive */
+/* ================= */
+
+@media(max-width:768px){
+
+
+.contact{
+
+    display:flex !important;
+
+    flex-direction:column !important;
+
+    padding:70px 20px;
+
+    gap:50px;
+
+}
+
+
+/* LEFT SIDE */
+
+
+.contact-left{
+
+    width:100% !important;
+
+    text-align:center;
+
+}
+
+
+.contact-left h2{
+
+    font-size:34px;
+
+}
+
+
+.contact-left p{
+
+    font-size:15px;
+
+    max-width:320px;
+
+    margin:20px auto;
+
+}
+
+
+.contact-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+
+.contact-info div{
+
+    justify-content:center;
+
+}
+
+
+
+/* RIGHT FORM */
+
+
+.contact-right{
+
+    width:100% !important;
+
+}
+
+
+.contact-right form{
+
+    width:100%;
+
+    max-width:340px;
+
+    margin:auto;
+
+}
+
+
+.contact-right input,
+.contact-right textarea{
+
+    width:100%;
+
+}
+
+
+.contact-right button{
+
+    width:100%;
+
+}
+
+}
