@@ -8,7 +8,7 @@ function Hero() {
       <div className="hero-content">
 
         <p className="hero-tag">
-          🚀 Next Generation AI Solutions
+          🚀 Next Generation AI Solutions santhosh punda
         </p>
 
         <h1>
